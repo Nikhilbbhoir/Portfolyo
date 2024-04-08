@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+    cursor:none;
+} */
+
+/* https://portfolio-backend-30mp.onrender.com/api/v1/get/user/65b3a22c01d900e96c4219ae */
+.progress-bar-container {
+    /* Styles for container */
+  }
+  
+  .progress-bar {
+    /* Styles for progress bar container */
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .progress {
+    /* Styles for progress bar itself */
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.5s ease-in-out;
+  }
+  
